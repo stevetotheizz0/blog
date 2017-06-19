@@ -1,3 +1,3 @@
+highlighter: rouge
 markdwon: redcarpet
-baseurl: /test-page
 exclude: ["README.md"]
