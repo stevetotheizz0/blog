@@ -1,3 +1,4 @@
 markdwon: redcarpet
-baseurl: /test-page
+baseurl: www.stephenskilton.com/test-page
 exclude: ["README.md"]
+pygments: false
