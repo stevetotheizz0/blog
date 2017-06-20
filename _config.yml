@@ -1,3 +1,4 @@
 highlighter: rouge
-markdwon: redcarpet
+markdown: redcarpet
 exclude: ["README.md"]
+baseurl: /blog
