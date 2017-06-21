@@ -1,4 +1,5 @@
 highlighter: rouge
 markdown: redcarpet
 exclude: ["README.md"]
+url: https://stevetotheizz0.github.io
 baseurl: /blog
