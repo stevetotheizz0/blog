@@ -2,11 +2,32 @@
 layout: default
 ---
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    <p>{{ post.tags}}</p>
-  </li>
-  {% endfor %}
-</ul>
+{% for post in paginator.posts %}
+  <div class="col-md-4 col-sm-6 portfolio-item" style = "max-width: 300px; min-height: 290px; border-radius: 7px; border: solid 1px; border-color:rgba(0,0,0, 0.2);  margin: 10px; padding-top:7px">
+    <a href="{{site.baseurl}}{{post.url}}">
+    <img src="https://3.bp.blogspot.com/-moDXOm_MmVw/Vk6bTfpUvjI/AAAAAAAABnQ/TYO2bWU5yP4/s400/Market%2BEast%2BStreet%2BSection.jpg" class="img-responsive">
+      <div class="portfolio-caption">
+        {{ post.date | date: "%b" }}
+        {{ post.date | date: "%d," }}
+        {{ post.date | date: "%Y" }} :
+        {{post.title}}
+        <p class="text-muted" style="position:absolute; bottom: 7px">Summary here</p>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination col-sm-12 vbottom">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
