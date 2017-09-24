@@ -18,6 +18,12 @@
   width: 200px;
   height: 180px;
   object-fit: cover;
-  float: left; 
+  float: left;
   margin-bottom: 10px
+}
+
+.index-blog-image {
+  width: 400px;
+  height: 309px;
+  object-fit: cover;
 }
