@@ -5,8 +5,8 @@ layout: export
 <div class="row">
   {% for post in site.posts limit: 3 %}
   <div class="col-md-4 col-sm-6 portfolio-item">
-    <a href="http://www.stephenskilton.com/blog/{{post.url}}">
-    <img src="http://www.stephenskilton.com/blog/{{post.thumbnail}}" class="img-responsive blog-image">
+    <a href="http://www.stephenskilton.com/blog{{post.url}}">
+    <img src="http://www.stephenskilton.com{{post.thumbnail}}" class="img-responsive blog-image">
     <div class="portfolio-caption">
       <h4>{{post.title}}</h4>
       <p class="text-muted">{{ post.date | date: "%b" }}{{ post.date | date: "%d," }}{{ post.date | date: "%Y" }}</p>
