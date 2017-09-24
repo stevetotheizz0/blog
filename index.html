@@ -4,7 +4,7 @@ layout: default
 
 {% for post in paginator.posts %}
   <div class="center-block col-md-8 col-sm-8 portfolio-item blog-index">
-    <a href="{{site.baseurl}}{{post.url}}">
+    <a href="{{site.baseurl}}{{post.url}}" style="text-decoration: none">
       <div class="portfolio-caption";>
         <img src="{{post.thumbnail}}" class="img-responsive blog-image">
         {{ post.date | date: "%b" }}
