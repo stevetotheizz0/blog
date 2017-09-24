@@ -9,7 +9,7 @@ layout: export
     <img src="http://www.stephenskilton.com/blog{{post.thumbnail}}" class="poop">
     <div class="portfolio-caption">
       <h4>{{post.title}}</h4>
-      <p class="text-muted">{{ post.date | date: "%b" }}{{ post.date | date: "%d," }}{{ post.date | date: "%Y" }}</p>
+      <p class="text-muted">{{ post.date | date: "%b " }} {{ post.date | date: "%d, " }} {{ post.date | date: "%Y" }}</p>
     </div>
   </div>
   {% endfor %}
