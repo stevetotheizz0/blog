@@ -5,21 +5,20 @@ body {
   margin: 0;
 }
 
-#main-wrapper {
-  min-height: 100%;
-  height: auto !important;
-  padding: 100px 0 100px;
-  position: relative;
-  height: 100%;
-}
-
-
 footer {
     bottom: 0;
     height: 100px;
     left: 0;
     width: 100%;
     position: absolute;
+}
+
+#main-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  padding: 100px 0 100px;
+  position: relative;
+  height: 100%;
 }
 
 .navbar-default{

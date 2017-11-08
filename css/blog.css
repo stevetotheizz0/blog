@@ -1,4 +1,15 @@
 
+.blog-image {
+
+  display: inline-block;
+  margin-right: 7px;
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  float: left;
+  margin-bottom: 10px
+}
+
 .blog-index {
 
   overflow: hidden;
@@ -9,17 +20,6 @@
   padding-top:7px;
   float: none;
   margin-bottom:25px
-}
-
-.blog-image {
-
-  display: inline-block;
-  margin-right: 7px;
-  width: 200px;
-  height: 180px;
-  object-fit: cover;
-  float: left;
-  margin-bottom: 10px
 }
 
 .poop {
