@@ -44,4 +44,6 @@ The final step is to calculate the costs for each infrastructure item, using the
 ![Net Fiscal Impact - Results]({{site.baseurl}}/img/2017-12-5/FiscalModelResults.jpg ){:class="img-responsive" style="padding: 75px;"}
 
 
-In the example above, the Trends cont. scenario contained a mostly suburban development pattern with low density levels such as 3 households per acre. The Focus Areas, and Focus Areas + Scenarios, were higher density, mixed-use developments that had densities such as 10 or 12 households per acre. This analysis is good tool for providing a comparison of how the change in density can also change the bottom line in terms of infrastructure costs. It also provides a good opportunity to combine GIS and statistics for use in policy analysis. 
+In the example above, the Trends cont. scenario contained a mostly suburban development pattern with low density levels such as 3 households per acre. The Focus Areas, and Focus Areas + Scenarios, were higher density, mixed-use developments that had densities such as 10 or 12 households per acre. This analysis is good tool for providing a comparison of how the change in density can also change the bottom line in terms of infrastructure costs. It also provides a good opportunity to combine GIS and statistics for use in policy analysis.
+
+If you would like to seem some of the final reports released from Smart Growth America, they can be found [on their website HERE](https://smartgrowthamerica.org/resources?resource_type=&authors=&category_name=&s=fiscal+impact)
