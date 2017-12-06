@@ -27,7 +27,10 @@ Our methodology at SGA uses observations of existing development patterns gather
 
 The first step of the process involves gathering shapefiles that pertain to population (Census Blocks), employment (again: from the Census), and infrastructure items such as roads, sidewalks, sewers, water, etc. We divide each of these components into 40-acre grid cells for comparison. Dividing observations into equal grid cells is a process similar to research methods used in other studies such as [this Report from the National Trust for Historic Preservation: "Older, Smaller, Better."](http://forum.savingplaces.org/connect/community-home/librarydocuments/viewdocument?DocumentKey=83ebde9b-8a23-458c-a70f-c66b46b6f714)
 
-Dividing up census blocks, and other shapefiles such as roads can be done in GIS using intersect and a number of other tools in succession. This process is almost always the same, so to save time I created a custom ArcMap toolbox by writing a few python scripts,  [which I have also shared via GitHub.](https://github.com/stevetotheizz0/Grid_Cell_tbx)
+Dividing up census blocks, and other shapefiles such as roads can be done in GIS using intersect and a number of other tools in succession. This process is almost always the same, so to save time I created a custom ArcMap toolbox by writing a few python scripts,  [which I have also shared via GitHub.](https://github.com/stevetotheizz0/Grid_Cell_tbx) Below is an example of population + employment density observations per 40-acre grid cells.
+
+### Population and Employment Density Observations (40-acre grid cells)
+![Population and Employment Density Observations]({{site.baseurl}}/img/2017-12-5/Fiscal_Impact_Grid.jpg){:class="img-responsive" style="padding: 75px;"}
 
 The next step of the process is to create a bivariate regression for each infrastructure item and compare the observed amount of infrastructure per capita for each level of density. The typical result found is an exponential relationship between population density and infrastructure per capita. (The degree to which this fits along a regression line does vary from place to place.)
 
