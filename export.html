@@ -1,17 +1,32 @@
----
-layout: export
----
-
 <div class="row">
-  {% for post in site.posts limit: 3 %}
+  
   <div class="col-md-4 col-sm-6 portfolio-item">
-    <a href="http://www.stephenskilton.com/blog{{post.url}}">
-    <img src="http://www.stephenskilton.com/blog{{post.thumbnail}}" class="poop">
+    <a href="http://www.stephenskilton.com/blog/2017/12/05/SGA-fiscal-impact-analysis.html">
+    <img src="http://www.stephenskilton.com/blog/img/2017-12-5.jpg" class="poop">
     <div class="portfolio-caption">
-      <h4>{{post.title}}</h4>
-      <p class="text-muted">{{ post.date | date: "%b " }} {{ post.date | date: "%d, " }} {{ post.date | date: "%Y" }}</p>
+      <h4>Fiscal Impact Analysis at SGA</h4>
+      <p class="text-muted">Dec  05,  2017</p>
     </div>
   </div>
-  {% endfor %}
+  
+  <div class="col-md-4 col-sm-6 portfolio-item">
+    <a href="http://www.stephenskilton.com/blog/2016/03/23/street-sections.html">
+    <img src="http://www.stephenskilton.com/blog/img/03-23-2016.jpg" class="poop">
+    <div class="portfolio-caption">
+      <h4>Street Sections</h4>
+      <p class="text-muted">Mar  23,  2016</p>
+    </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-6 portfolio-item">
+    <a href="http://www.stephenskilton.com/blog/2016/03/20/code-for-philly-held-hackathon-over.html">
+    <img src="http://www.stephenskilton.com/blog/img/03-20-2016.jpg" class="poop">
+    <div class="portfolio-caption">
+      <h4>Code for Philly's DemHacks 2016</h4>
+      <p class="text-muted">Mar  20,  2016</p>
+    </div>
+  </div>
+  
 </div>
 <div></div>
+
