@@ -6,3 +6,8 @@ baseurl: /blog
 plugins: [jekyll-paginate]
 paginate: 6
 paginate_path: "page:num"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  extensions: fenced_code_blocks
