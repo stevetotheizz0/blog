@@ -15,7 +15,7 @@ summary: R's ACS package provides a general toolkit for downloading, managing, a
 
 In [my last post](http://www.stephenskilton.com/blog/2018/01/08/Real-Dollars-R.html) I walked through some of the packages in R that make it really easy to grab and update data for a project. One of my favorites shortcuts is using the "ACS" package in R.
 
-Now lets say you've filtered a select group of Census Tracts and need one or two pieces of information just for those tracts. (This is especially tedious if you needed this data for a large number, like 40,000 tracts.) In my case, I am often studying the profile of market rate rental units and their affordability in a neighborhood. In each study, I'll need to gather and summarize data from just a few fields for these tracts.
+Now lets say you've filtered a select group of Census Tracts and need one or two pieces of information just for those tracts. This is especially tedious if you needed this data for a large number, like 40,000 tracts. In my case, I am often studying the profile of market rate rental units and their affordability in a neighborhood. In each study, I'll need to gather and summarize data from just a few fields for these tracts.
 (At the end of this article I have a link to a more robust example of code and a sample input file to go with it.)
 
 Saving time here will let me focus on other tasks that may be helpful to add for an area. For example, in some situations only a portion of some of the census tracts would fall within a neighborhood or other boundary and in those cases I might expand upon my existing code by adding a few lines to multiply the results from the ACS against a ratio.
