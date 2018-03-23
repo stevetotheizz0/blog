@@ -13,6 +13,8 @@ summary: A quick look at using R to grab consumer price index info and adjust do
 
 ---
 
+![Population and Employment Density Observations]({{site.baseurl}}/img/2018-01-08.jpg){:class="img-responsive" style="padding: 75px;"}
+
 _Using R to adjust a time series of dollar values for inflation:_
 
 _This post is the first of several that I have planned that focus on some of the simple tasks that I have been using R to help with. Although this task might be relatively simple, in subsequent articles I'll continue to expand in some tasks that are longer and more specific._
