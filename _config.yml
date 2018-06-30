@@ -3,7 +3,8 @@ markdown: kramdown
 exclude: ["README.md"]
 url: https://stevetotheizz0.github.io
 baseurl: /blog
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
+plugins_dir: [jekyll-paginate]
 paginate: 6
 paginate_path: "page:num"
 
